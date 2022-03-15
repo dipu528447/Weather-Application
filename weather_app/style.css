@@ -1,0 +1,32 @@
+*{
+    font-family: 'Tahoma';
+    
+}
+body{
+    background-image: url('./bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container{
+    text-align: center;
+    margin-top: 10vh;
+}
+#txtSearch{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 20vw;
+    height: 5vh;
+    font-size: 1.4vw;
+    text-align: center;
+    border-bottom: 3px outset rgb(208, 179, 62)
+}
+.cityName>h1{
+    text-transform: capitalize;
+    font-size: 3vw;
+}
+.temperature>h1{
+    font-size: 6vw;
+    text-shadow: 5px 5px gray;
+}
+
